@@ -425,7 +425,7 @@ def arithmetic():
 
 while True:
 
-    print("\n----- Smart Calculator -----")
+    print("\n------ Smart Calculator ------")
     print("1. Basic Arithmetic")
     print("2. Scientific Calculations")
     print("3. Generate Random Number")

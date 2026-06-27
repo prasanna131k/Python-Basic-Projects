@@ -222,7 +222,7 @@ rect = Rectangle(length, width)
 rect.display()
 
 
-print("-----------------------------------------------------------------------------")
+print("---------------------------------------------------------------------------------")
 #Q8. Updating Attributes
 print("Q8")
 print("Create a class Player with attributes name, score, and level.")

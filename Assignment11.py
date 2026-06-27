@@ -176,7 +176,7 @@ except (ValueError, ZeroDivisionError) :
 print("\n")
 #Q9. Debugging Exception Code
 print("Q9")
-print("The following code has issues. Correct it and add comments explaining the fixes:")
+print("The following code has issues. Correct it and add comments explaining the fixes :-")
 print()
 
 #try

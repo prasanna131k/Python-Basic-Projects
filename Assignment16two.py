@@ -37,6 +37,7 @@ print(df.isnull().sum())
 print("\n")
 #Q4. Identify numerical and categorical columns in the dataset. Print them
 # separately.
+print("Q4")
 
 numerical_columns = df.select_dtypes(include=['int64', 'float64']).columns
 

@@ -424,3 +424,15 @@ print("MSE :", mean_squared_error(y_test, y_pred))
 print("RMSE:", np.sqrt(mean_squared_error(y_test, y_pred)))
 print("R² Score:", r2_score(y_test, y_pred))
 
+import joblib
+
+joblib.dump(model, "manga_model.pkl")
+joblib.dump(scaler, "manga_scaler.pkl")
+joblib.dump(X.columns.tolist(), "manga_columns.pkl")
+
+print()
+print("Files Saved Successfully!")
+print("1. manga_model.pkl")
+print("2. manga_scaler.pkl")
+print("3. manga_columns.pkl")
+

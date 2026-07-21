@@ -278,6 +278,5 @@ print("3. columns.pkl")
 # 3. The feature column names are saved as 'columns.pkl'.
 # 4. These files can be loaded later without retraining
 #    the model.
-# ------------------------------------------------------------------
-
+# -----------------------------------------------------------------
 
